@@ -25,6 +25,8 @@
     
     
   </dependencies>
+<profile>
+<id>SampleDeploy</id>
 <distributionManagement>
 <repository>
 <id>Sample_Release</id>
@@ -35,4 +37,18 @@
 <url>http://node01.example.com:8081/nexus/content/repositories/Sample_Sanpshot/</url>
 </snapshotRepository>
 </distributionManagement>
+</profile>
+<profile>
+<id>AbcDeploy</id>
+<distributionManagement>
+<repository>
+<id>Sample_Release</id>
+<url>http://node01.example.com:8081/nexus/content/repositories/Sample_Release/</url>
+</repository>
+<snapshotRepository>
+<id>Sample_Sanpshot</id>
+<url>http://node01.example.com:8081/nexus/content/repositories/Sample_Sanpshot/</url>
+</snapshotRepository>
+</distributionManagement>
+</profile>
 </project>
