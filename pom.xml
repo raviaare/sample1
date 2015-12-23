@@ -25,6 +25,7 @@
     
     
   </dependencies>
+<profiles>
 <profile>
 <id>SampleDeploy</id>
 <distributionManagement>
@@ -51,4 +52,6 @@
 </snapshotRepository>
 </distributionManagement>
 </profile>
+</profiles>
+
 </project>
