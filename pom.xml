@@ -39,7 +39,7 @@
 </distributionManagement>
 </profile>
 <profile>
-<id>AbcDeploy</id>
+<id>ABCDeploy</id>
 <distributionManagement>
 <repository>
 <id>Sample_Release</id>
